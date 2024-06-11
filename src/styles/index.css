@@ -1,12 +1,69 @@
+#app {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.modaes.com/thumb/MTIwMHg2NzV4MXgxLjQuNjk=/files/2020/19_lugares/ciudades/quinta-avenida-nueva-york-948.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: aliceblue;
+}
 
-/* 
+.container {
+  text-align: -webkit-center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.base-semaforo {
+  background-color: black;
+  width: 50px;
+  height: 250px;
+  border-radius: 0px;
+}
 
-*/
+.traffic-light {
+  text-align: -webkit-center;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 140px;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.purple {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.glow {
+  box-shadow: 0px 0px 20px 5px rgb(2, 247, 214);
+}
+
+button {
+  margin-top: 10px;
+
+}
